@@ -1,0 +1,29 @@
+.features {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #dfdfdf;
+}
+
+.flex-container {
+  padding: 50px 0;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.feature-item {
+  flex: 20%;
+  margin: 20px;
+  text-align: left;
+}
+
+.feature-item h3 {
+  font-size: 1.2rem;
+}
+@media (max-width: 800px) {
+  .feature-item {
+    flex: 100%;
+  }
+}
