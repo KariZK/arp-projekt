@@ -6,12 +6,11 @@ const WhyRockiniT = () => {
     <section id="why" className="why">
       <div className="flex-why-container">
         <div className="why-image-item">
-          <img src="/images/why-img.jpg" />
+          <img src="/images/why-img.jpg" alt="Foto" />
         </div>
         <div className="why-text-item">
-          <h1>Jak uczymy, czyli dlaczego Rockin'iT?</h1>
-          <p>Opisywać unikalne cechy firmy i jej podejście do nauczania</p>
-          <p>Wymienić kluczowe metody i podejścia stosowane przez firmę</p>
+          <h2>Jak uczymy, czyli dlaczego Rockin'iT?</h2>
+
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
             lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod
@@ -27,20 +26,21 @@ const WhyRockiniT = () => {
           </p>
         </div>
       </div>
-      {/* <div className="why-grid">
-      <div className="why-item">
-        <p>"MyProduct has transformed our business operations!"</p>
-        <p>- John Doe, CEO of Company</p>
+
+      <div className="why-grid">
+        <div className="why-item">
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit!"</p>
+          <p>- Jan Kowalski</p>
+        </div>
+        <div className="why-item">
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+          <p>- Ewa Nowak</p>
+        </div>
+        <div className="why-item">
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
+          <p>- John Smith</p>
+        </div>
       </div>
-      <div className="why-item">
-        <p>"I can't imagine going back to how we did things before."</p>
-        <p>- Jane Smith, Operations Manager</p>
-      </div>
-      <div className="why-item">
-        <p>"The best decision we made was choosing MyProduct."</p>
-        <p>- Michael Brown, CTO of Another Company</p>
-      </div>
-      </div> */}
     </section>
   );
 };

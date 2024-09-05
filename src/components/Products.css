@@ -4,6 +4,11 @@
   text-align: center;
 }
 
+.container h2 {
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 40px;
+}
 .products-grid {
   display: flex;
   justify-content: center;
@@ -18,9 +23,6 @@
 .products-item h3 {
   font-size: 1.2rem;
   margin-bottom: 10px;
-}
-
-.container {
 }
 
 .box {

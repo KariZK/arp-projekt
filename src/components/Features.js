@@ -6,10 +6,7 @@ const Features = () => {
   return (
     <section id="features" className="features">
       <h2>Czego uczymy?</h2>
-      <p>
-        Przedstawiać obszary szkoleniowe w formie kolumn. Każda kolumna powinna
-        zawierać ikonę i krótki opis oferowanego szkolenia
-      </p>
+
       <div className="flex-container">
         <div className="feature-item">
           <h3>

@@ -4,8 +4,14 @@
   background-color: #dfdfdf;
 }
 
+.features h2 {
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 40px;
+}
+
 .flex-container {
-  padding: 50px 0;
+  padding: 30px 0;
   box-sizing: border-box;
   text-align: center;
   display: flex;

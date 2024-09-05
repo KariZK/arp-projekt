@@ -10,12 +10,6 @@ const Products = () => {
     <section className="products">
       <div className="container">
         <h2>Dla kogo?</h2>
-        <p>
-          Wymienić grupy docelowe. Wykorzystać ikony i krótkie opisy, aby
-          użytkownicy mogli łatwo zidentyfikować, czy oferta jest dla nich
-          odpowiednia. Każda grupa docelowa powinna mieć swoją ikonę i krótki
-          opis
-        </p>
 
         <div className="products-grid">
           <Box

@@ -6,7 +6,7 @@ const Hero = () => {
     <section id="hero" className="hero">
       <div className="hero-container">
         <div className="hero-text">
-          <div className="scale-down-center">
+          <div className="scale-up-center">
             <h1>Świeże spojrzenie na nauczanie</h1>
 
             <p>Wytyczamy nowe szlaki na scenie edukacji w IT. </p>

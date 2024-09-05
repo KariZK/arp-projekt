@@ -6,7 +6,6 @@
 
 .flex-why-container {
   background-color: #fafafa;
-
   box-sizing: border-box;
   text-align: center;
   display: flex;
@@ -18,50 +17,43 @@
   max-width: 100%;
   height: auto;
   display: block;
+  margin-bottom: 30px;
 }
 .why-text-item {
   flex: 40%;
   text-align: justify;
-  margin: 30px;
+  margin: 50px;
 }
 
-/* .why-grid {
+.why-grid {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-} */
-/* 
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
 .why-item {
   width: 30%;
   margin-bottom: 20px;
   font-style: italic;
-} */
-
-/* .two-column-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  gap: 20px;
-  flex-wrap: wrap;
-} */
-
-/* 
-.why-image img {
+}
+*/ .why-image img {
   width: 70%;
   height: auto;
-} */
-
-/* .why-text h1 {
-  margin-bottom: 20px;
-  font-size: 2rem;
+}
+.why h2 {
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 10px;
 }
 
 .why-text p {
   margin-bottom: 20px;
   font-size: 1rem;
   line-height: 1.5;
-} */
+}
 
 @media (max-width: 800px) {
   .why-image-item img {
